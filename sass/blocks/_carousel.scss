@@ -1,0 +1,38 @@
+.carousel {
+    min-height: 750px;
+    padding: 80px 0;
+    &__wrapper {
+        position: relative;
+        width: 750px;
+        min-height: 600px;
+        margin: 0 auto;
+    }
+    &__slider {
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+    }
+    &__prev {
+        position: absolute;
+        top: 50%;
+        left: -50px;
+        transform: translateY(-50%);
+        cursor: pointer;
+    }
+    &__next {
+        position: absolute;
+        top: 50%;
+        right: -50px;
+        transform: translateY(-50%);
+        cursor: pointer;
+    }
+
+.hide {
+    display: none;
+}
+
+.show {
+    display: block;
+}
+
+}

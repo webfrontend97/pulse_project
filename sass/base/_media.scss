@@ -1,0 +1,21 @@
+@media screen and (max-width: 991px) {
+    .container {
+        max-width: 720px;
+        margin: 0 auto;
+    }
+    .carousel {
+        &__next {
+            top: 105%;
+            right: 40%;
+            z-index: 10;
+        }
+        &__prev {
+            top: 105%;
+            left: 40%;
+            z-index: 10;
+        }
+    }
+    .catalog {
+        padding: 80px 0;
+    }
+}

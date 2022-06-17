@@ -1,0 +1,30 @@
+@import 'base/variables';
+@import 'base/animation';
+@import 'blocks/header';
+@import 'blocks/promo';
+@import 'blocks/btn';
+@import 'blocks/avantages';
+@import 'blocks/title';
+@import 'blocks/consultation';
+@import 'blocks/forms';
+@import 'blocks/carousel';
+@import 'blocks/catalog';
+@import 'blocks/feed';
+@import 'blocks/footer';
+@import 'blocks/modal';
+
+* {
+    font-family: 'Museo Sans Cyrl', sans-serif;
+}
+
+body {
+    overflow-y: scroll;
+}
+
+.container {
+    max-width: 950px;
+    margin: 0 auto;
+}
+
+@import 'base/media';
+

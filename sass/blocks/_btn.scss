@@ -1,0 +1,28 @@
+.button {
+    width: 153px;
+    height: 32px;
+    background-color: $main-color;
+    border: none;
+    border-radius: 6px;
+    font-weight: 500;
+    font-size: 12px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    &_main {
+        width: 303px;
+        height: 54px;
+        font-size: 16px;
+        margin-top: 65px;
+    }
+    &_forms {
+        width: 303px;
+        height: 58px;
+        font-size: 16px;
+    }
+    &_cart{
+        width: 131px;
+        height: 40px;
+        font-weight: 500;
+        font-size: 14px;
+    }
+}
